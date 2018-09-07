@@ -1,0 +1,56 @@
+/*CSS sheet for James Perlman, 1st GITHUB submission*/
+/* LIS-467  Web Develop.  Prof. N. Agarwal, Sept. 6, 2018 */
+
+body {
+	background-color: teal}
+
+h1 {
+	background-color: silver;
+    	font-family: "Times New Roman", Times, serif;
+    	color: black;
+    	text-align: center;
+}
+
+h3 {
+	background-color: gray;
+    	font-family: "Times New Roman", Times, serif;
+    	color: black
+}
+
+p.highlighted {
+		text-align: center;
+		font-size: 14px;
+		font-family: "Arial";
+		color: purple
+}
+
+p.standard {
+		text-align: center;
+		font-size: 14px;
+		font-family: "Times New Roman", Times, serif;
+		color: black
+}
+
+ul.customlist{
+							list-style-image: url(staticdot.gif);
+}
+
+li.custom_item {
+							 margin-top: 8px;
+               margin-bottom: 8px;
+}
+
+div.closing {
+		text-align: center;
+	    	font: Courier;
+		color: black
+}
+
+/*links, don't underline, make all links blue. Make links flash red when
+	hover or active, and purple after visited. */
+
+a {text-decoration: none;}
+a:link {color: blue;}
+a:visited {color: purple;}
+a:active {color: red;}
+a:hover {color:red;}
